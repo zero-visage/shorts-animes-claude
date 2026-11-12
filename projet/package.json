@@ -1,0 +1,25 @@
+{
+  "name": "shorts-animes-claude",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@react-three/fiber": "^9.1.2",
+    "@react-three/postprocessing": "^3.0.4",
+    "@remotion/bundler": "^4.0.300",
+    "@remotion/cli": "^4.0.300",
+    "@remotion/renderer": "^4.0.300",
+    "@remotion/three": "^4.0.300",
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.170.0",
+    "postprocessing": "^6.37.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.300",
+    "three": "^0.170.0",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "rendu": "node scripts/render.mjs TrainsShort out/trains.mp4"
+  }
+}

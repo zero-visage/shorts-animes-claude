@@ -1,0 +1,1 @@
+Mets ici voice.mp3 (ta voix). sfx.wav = bruitages de l'exemple (refaits par : python outils/son/bruitages.py)
